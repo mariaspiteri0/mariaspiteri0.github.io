@@ -1,45 +1,60 @@
-<h1> Register </h1>
+<!DOCTYPE html>
+<html lang="en">
 
- <form action="https://www.google.com/" method="get">
-  <label for="firstname">First Name:</label>
-    <input id="text" name="text" type="text" required>
-<label for="lastname">Last Name:</label>
-    <input id="text" name="text" type="text" required>
-   <p>
-   <label for "male">Male:</label>
-   <input id="phone" type="radio" name="check">
-    <label for "female">Female:</label>
-   <input id="phone" type="radio" name="check">
-    <label for "other">Other:</label>
-   <input id="phone" type="radio" name="check">
-   </p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1> Register </h1>
+
+  <form action="https://www.google.com/" method="get">
+    <label for="first-name">First Name:</label>
+    <input id="first-name" name="first-name" type="text" placeholder="John" required />
+    <label for="last-name">Last Name:</label>
+    <input id="last-name" name="last-name" type="text" placeholder="Smith" required />
+    <br>
+    <label for="male">Male:</label>
+    <input id="male" type="radio" name="male">
+    <label for="female">Female:</label>
+    <input id="female" type="radio" name="female">
+    <label for="other">Other:</label>
+    <input id="other" type="radio" name="other">
+
     <label for="email">Email:</label>
-  <input id="email" name="email" type="email" required>
-  <label for="password">Password:</label>
-  <input id="password" name="password" type="password" minlength="6"
- required>
-   <p>
-    <label for="birthday">Birthday:</label>
-     <select name="Month">
-       <option value="January">January</option>
-       <option value="February">February</option>
-       <option value="March">March</option>
-       <option value="April">April</option>
-     </select>
-     <select name="Day">
-       <option value="1">1</option>
-       <option value="2">2</option>
-       <option value="3">3</option>
-       <option value="4">4</option>
-     </select>
-     <select name="Year">
-       <option value="2020">2000</option>
-       <option value="2019">2001</option>
-       <option value="2018">2002</option>
-       <option value="2017">2003</option>
-     </select>
-   </p>
-   <p> I agree to the terms and conditions 
-   <input id="phone" type="checkbox" name="box">
-   </p>
-   <input type="submit">
+    <input id="email" name="email" type="email" required>
+    <label for="password">Password:</label>
+    <input id="password" name="password" type="password" minlength="6" required>
+    <br>
+    <label for="select-choice">Birthday:</label>
+    <select name="select-choice" id="select-choice">
+      <option value="0" selected disabled>Month</option>
+      <option value="January">January</option>
+      <option value="February">February</option>
+      <option value="March">March</option>
+      <option value="April">April</option>
+    </select>
+    <select name="Day">
+      <option value="0" selected disabled>Day</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+    <select name="Year">
+      <option value="0" selected disabled>Year</option>
+      <option value="2020">2000</option>
+      <option value="2019">2001</option>
+      <option value="2018">2002</option>
+      <option value="2017">2003</option>
+    </select>
+    <p> I agree to the terms and conditions
+      <input id="phone" type="checkbox" name="box">
+    </p>
+    <input type="submit">
+  </form>
+</body>
+
+</html>
