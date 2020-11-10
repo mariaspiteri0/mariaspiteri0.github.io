@@ -7,17 +7,17 @@ body{
 }
 
 /* Make the <h1> element #9b59b6*/
-h1{
+h1 {
     color: #9b59b6;
 }
 
 /* Make all <h2> elements orange */
-h2{
+h2 {
     color: orange;
 }
 
 /* Make all <li> elements blue(pick your own hexadecimal blue)*/ 
-ul{
+ul {
    color: #008397; 
 }
 
