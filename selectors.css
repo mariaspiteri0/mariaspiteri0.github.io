@@ -22,7 +22,9 @@ ul {
 }
 
 /*Change the background on every paragraph to be yellow*/
-
+p {
+    color: yellow;
+}
 
 /*Make all inputs have a 3px red border*/
 
