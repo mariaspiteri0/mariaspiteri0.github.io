@@ -17,7 +17,7 @@ h2{
 }
 
 /* Make all <li> elements blue(pick your own hexadecimal blue)*/ 
-li{
+ul{
    color: #008397; 
 }
 
