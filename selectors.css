@@ -47,12 +47,14 @@ div p {
 }
 
 /*Make only inputs with type 'text' have a gray background*/
-a[text] {
+input:first-of-type {
     background-color: gray;
 }
 
 /* Give both <p>'s inside the 3rd <div> a pink background*/
-
+div :nth-child(3){
+    background-color: pink;
+}
     
 
 /* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
