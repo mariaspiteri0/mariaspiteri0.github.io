@@ -1,4 +1,30 @@
-td{
+
+
+body {
+  align-content: center;
+}
+
+td {
 width: 100px;
 height: 100px;
+}
+
+.one {
+  border-right: black 1px solid;
+   border-bottom: black 1px solid;
+}
+.three {
+  border-left: black 1px solid;
+   border-bottom: black 1px solid;
+}
+.five {
+  border: black 1px solid;
+}
+.seven {
+  border-top: black 1px solid;
+   border-right: black 1px solid;
+}
+.nine{
+   border-top: black 1px solid;
+   border-left: black 1px solid;
 }
