@@ -1,7 +1,7 @@
 
 
 body {
-  align-content: center;
+  align-items: center;
 }
 
 td {
@@ -10,21 +10,21 @@ height: 100px;
 }
 
 .one {
-  border-right: black 1px solid;
-   border-bottom: black 1px solid;
+  border-right: 1px solid black;
+   border-bottom: 1px solid black;
 }
 .three {
-  border-left: black 1px solid;
-   border-bottom: black 1px solid;
+  border-left: 1px solid black;
+   border-bottom: 1px solid black;
 }
 .five {
-  border: black 1px solid;
+  border: 1px solid black;
 }
 .seven {
-  border-top: black 1px solid;
-   border-right: black 1px solid;
+  border-top: 1px solid black;
+   border-right: 1px solid black;
 }
 .nine {
-   border-top: black 1px solid;
-   border-left: black 1px solid;
+   border-top: 1px solid black;
+   border-left: 1px solid black;
 }
