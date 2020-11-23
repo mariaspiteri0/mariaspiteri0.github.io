@@ -1,0 +1,16 @@
+body {
+    border: 20px #bdc7cf solid;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto; }
+
+    h2 {
+        color: #354b63;
+
+    }
+    .date {
+        color: #3098dd;
+text-transform: uppercase;
+letter-spacing: 0.1rem;
+    }
