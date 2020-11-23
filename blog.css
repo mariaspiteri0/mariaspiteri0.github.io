@@ -15,7 +15,7 @@ text-transform: uppercase;
 letter-spacing: 0.1rem;
     }
     .first {
-        border-left: #bdc7cf;
+        border-left: #bdc7cf 7px solid;
         padding-left: 5px;
     }
     
