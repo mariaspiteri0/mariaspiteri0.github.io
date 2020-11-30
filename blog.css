@@ -12,10 +12,17 @@ body {
     .date {
         color: #3098dd;
 text-transform: uppercase;
-letter-spacing: 0.1rem;
+letter-spacing: 0.3rem;
     }
     .first {
         border-left: #bdc7cf 7px solid;
         padding-left: 5px;
     }
+    hr {
+        border: 0;
+        height: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    /* hr code sourced from https://css-tricks.com/examples/hrs/ style no.6 */
     
